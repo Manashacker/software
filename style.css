@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.384),rgb(114, 247, 174));    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+#logo{
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    transform: trnaslatey(-50%);
+    z-index: 2;
+}
+#logo a{
+    color: white;
+    text-decoration: none;
+}
+#text1{
+    color: #fbfbfb;
+        position: absolute;
+        top: 15%;
+        left: 8%;
+        transform: trnaslatey(-50%);
+        z-index: 2;
+        font-size: 8vw;
+        margin: auto;
+        line-height: 80px;
+        font-family:'Kaushan Script', cursive ;
+}
+.banner-btn{
+    
+    
+    transform: trnaslatey(-50%);
+}
+.banner-btn a{
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border:0.5px solid aqua ;
+    transition: color 0.5s;
+    top: 50%;
+    margin: auto;
+    left: 30%;
+    transform: translateY(-50%);
+    padding: 10px;
+}
+#btn1{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: aqua;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+    color: white;
+}
+#sidenav{
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    right: -100px;
+    top: 0;
+    background-color:rgb(51, 253, 135) ;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+   list-style: none;
+   margin-top: 60px;
+   /* margin-right: 20px; */
+   text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#menubtn{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(51, 253, 135) ;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    top: 15px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+
+#banner h1{
+    
+    margin: auto;
+    font-size: 20px;
+    color: rgba(7, 255, 243, 0.76);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    top: 30%;
+    left: 35%;
+    font-size: 50px;
+    
+    
+}
+#banner h1::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(rgb(7, 164, 255),white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    
+}
+#banner p{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    font-size: 20px;
+
+}
+.h{
+    color: rgb(255, 115, 73);
+    margin: auto;
+    font-size: 20px;
+    
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    flex-basis:50% ;
+    margin-top: 30PX;
+    margin-left: 45%;
+    font-size: 50px;
+    
+}
+.h::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(rgb(255, 115, 73),white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.html{
+    background-color: white;
+
+}
+.img{
+    margin-top: 4%;
+    margin-left: 45%;
+    display: flex;
+    flex-basis: 50%;
+   
+}
+.html p{
+    color: rgb(255, 115, 73);
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 20PX;
+    margin-left: 10%;
+    font-size: 20px;
+}
+#a{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 40%;
+}
+#t{
+    margin-top: 15px;
+    margin-left: 42%;
+    font-size: 40PX;
+}
+.images{
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 40%;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+.link{
+    color: black;
+    margin: auto;
+    font-size: 20px;
+    
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    flex-basis:50% ;
+    margin-top: 30PX;
+    margin-left: 25%;
+    font-size: 50px;
+}
+.btn{
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 35%;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(7, 187, 76);
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(7, 187, 76);
+}
+hr{
+    color: rgb(255, 115, 73);
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.css{
+    margin-top: 30px;
+    background-color: rgb(253, 245, 245);
+    color: rgb(97, 231, 255)0, 217, 255;
+    height: 100vh;
+}
+.c{
+    
+    color: rgb(6, 203, 252);
+    margin: auto;
+    font-size: 20px;
+    
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    flex-basis:50% ;
+    margin-top: 30PX;
+    margin-left: 45%;
+    font-size: 50px;
+    
+}
+.c::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(rgb(6, 203, 252),white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.css p{
+    color: rgb(6, 203, 252);
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 20PX;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+#RT{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+li{
+    color: rgb(6, 203, 252);
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 15PX;
+    margin-left: 10%;
+    font-size: 20px;
+}
+@media screen and (max-width: 770px){
+    #banner h1{
+        font-size: 30px;
+        left: 40px;
+       
+    }
+    #banner p{
+        text-align: center;
+    }
+    .html p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .img{
+       text-align: center;
+    }
+    .h{
+        font-size: 30px;
+        text-align: center;
+    }
+    #a{
+        font-size: 20px;
+    }
+    #t{
+        font-size: 20px;
+        margin-top: 25px;
+
+    }
+    .images{
+        width: 150px;
+        left: 25%;
+    }
+    .link{
+        font-size: 15px;
+
+    }
+    .btn{
+        padding: 20px;
+        font-size: 18px;
+        margin-left: 25%;
+    }
+    .c{
+        font-size: 30px;
+        text-align: center;
+    }
+    .css p{
+        font-size: 15px;
+        text-align: center;
+    }
+    #RT{
+        font-size: 18px;
+    }
+    li{
+        font-size: 14px;
+        text-align: center;
+    }
+}
