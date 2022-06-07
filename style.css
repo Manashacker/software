@@ -5,9 +5,11 @@
 }
 #banner{
     background:linear-gradient(rgba(0, 0, 0, 0.384),rgb(114, 247, 174));    
+     background:linear-gradient(rgba(0, 0, 0, 0.384),rgb(114, 247, 174));    
     background-size: cover;
     background-position: center;
     height: 100vh;
+    
     
 }
 #logo{
@@ -121,7 +123,7 @@ nav ul li a{
     position: relative;
     z-index: 1;
     display: inline-block;
-    top: 30%;
+    top: 20%;
     left: 35%;
     font-size: 50px;
     
@@ -179,6 +181,12 @@ nav ul li a{
 }
 .html{
     background-color: white;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    width: 80%;
+    /* align-items: center;
+    text-align: center; */ 
 
 }
 .img{
@@ -212,6 +220,8 @@ nav ul li a{
     margin-left: 40%;
     border-radius: 12px;
     border: 2px solid black;
+    display: flex;
+    flex-basis: 50%;
 }
 .link{
     color: black;
@@ -249,19 +259,23 @@ hr{
     margin-top: 30px;
     background-color: rgb(253, 245, 245);
     color: rgb(97, 231, 255)0, 217, 255;
-    height: 100vh;
+    height: 120vh;
+    margin-top: 0;
+ 
+ 
 }
 .c{
     
     color: rgb(6, 203, 252);
     margin: auto;
     font-size: 20px;
-    
+    top: 20px;
     font-weight: bold;
     position: relative;
     z-index: 1;
-    display: inline-block;
-    flex-basis:50% ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
     margin-top: 30PX;
     margin-left: 45%;
     font-size: 50px;
@@ -304,6 +318,193 @@ li{
     margin-left: 10%;
     font-size: 20px;
 }
+.img1{
+    flex-basis: 50%;
+    /* margin-top: 20PX; */
+    margin-left: 55%;
+    width: 150px;
+
+}
+.js{
+    height: 100vh;
+    background-color: yellow;
+    margin-top: 0;
+}
+.j{
+    top: 60px;
+        
+    color: black;
+    margin: auto;
+    font-size: 20px;
+    
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    
+    margin-left: 45%;
+    font-size: 50px;
+}
+.j::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(black,white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.js p{
+    color: black;
+  margin-top: 70PX;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#ox{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.js li{
+    color: black;
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 15PX;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.py{
+    background-color: rgb(5, 49, 194);
+    height: 150vh;
+}
+.p{
+    top: 60px;
+        
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    
+    margin-left: 45%;
+    font-size: 50px;
+}
+.p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(orange,white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.py p{
+    color: white;
+  margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.py li{
+    color: white;
+    
+    margin-top: 15PX;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.software{
+    height: 150vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.384),rgb(9, 157, 255));    
+}
+.s{
+    margin: auto;
+    font-size: 20px;
+    color: rgb(252, 200, 200);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    top: 30%;
+    left: 30%;
+    font-size: 50px;
+}
+.s::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(rgb(252, 200, 200),white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.software p{
+    color: rgb(252, 200, 200);
+    margin-top: 30%;
+      margin-left: 10%;
+      margin-right: 5%;
+      font-size: 20px;
+      margin-bottom: 20px;
+}
+.software li{
+    color: rgb(252, 252, 252);
+    
+    margin-top: 15PX;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.pt{
+    height: 100vh;
+    margin-top: 40px;
+    background-color: white;
+}
+.pa{
+    margin: auto;
+    font-size: 20px;
+    color: rgb(211, 211, 9);
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    top: 10%;
+    left: 45%;
+    font-size: 50px;
+}
+.pa::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(blue,white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+
 @media screen and (max-width: 770px){
     #banner h1{
         font-size: 30px;
@@ -333,8 +534,9 @@ li{
 
     }
     .images{
-        width: 150px;
-        left: 25%;
+        width: 250px;
+        margin-left: 10%;
+        /* flex-basis: 100%; */
     }
     .link{
         font-size: 15px;
@@ -358,6 +560,46 @@ li{
     }
     li{
         font-size: 14px;
+        text-align: center;
+    }
+    .j{
+        font-size: 30px;
+        text-align: center;
+    }
+    .js{
+        height: 2;
+    }
+    .js p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .js li{
+        font-size: 15px;
+        text-align: center;
+    }
+    #ox{
+        font-size: 18px;
+    }
+    .p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .py p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .py li{
+        font-size: 15px;
+        text-align: center;
+    }
+    .s{
+        font-size: 18px;
+        margin-top: 10%1;
+        text-align: center;
+    }
+    .software p{
+        margin-top: 60vh;
+        font-size: 15px;
         text-align: center;
     }
 }
